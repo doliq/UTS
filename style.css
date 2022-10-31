@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Bahnschrift;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpg),linear-gradient(rgb(0,0,0,75),rgb(0,0,0,75));
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 62, 117);
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+    background: #EEF1FF;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #ffffff;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 40px;
+}
+content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid #ffffff;
+    background: #00000019;
+    color: #C6EBC5;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-top: 360px;
+    left: 530px;
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+button:hover{
+    color: rgb(0, 0, 0);
+    background-color:#6f6f6f3a;
+}
+
+button a:link{
+    color: #C6EBC5;
+    text-decoration: none;
+}
+ 
+.content2{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.content2 p{
+    font-weight: 1000;
+    line-height: 25px;
+}
+
+.box{
+    flex-basis: 1%;
+    background: #6f6f6f3a;
+    border-radius: 7px;
+    margin-bottom: 10%;
+    padding: 20px 10px;
+    box-sizing:content-box;
+}
+
+.news{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    text-align: left;
+    font-size: 30px;
+    color: #C6EBC5;
+}
+
+img{
+    padding: 5px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    align-content: center;
+    display: block;
+    margin: 14%;
+    float: left;
+    
+}
+
+.top h1{
+    color: #00000060;
+    text-align: center;
+}
